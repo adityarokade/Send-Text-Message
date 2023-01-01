@@ -1,8 +1,22 @@
 # Send-Text-Message
 
-step 1:- create conda env
-step 2:- run - 'pip install -r requirements.txt'
-step 3:- run - 'python app.py'
+step 1:- create conda env                             
+```bash
+conda create --prefix ./env python=3.7 -y
+```
+```bash
+conda activate ./env
+```
+
+step 2:- Install Requirements.txt File
+```bash
+pip install -r requirements.txt
+```
+
+step 3:- Run the code
+```bash
+python code/app.py
+```
 
 
 
